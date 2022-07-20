@@ -54,7 +54,7 @@ const Home: NextPage = () => {
             >
               6 Continentes, infinitas possibilidades.
             </Heading>
-            <Text color="gray.100" fontSize={{ base: '14px', md: '20px' }}>
+            <Text color="gray.200" fontSize={{ base: '14px', md: '20px' }}>
               Chegou a hora de tirar do papel a viagem que você sempre sonhou.
             </Text>
           </Stack>
