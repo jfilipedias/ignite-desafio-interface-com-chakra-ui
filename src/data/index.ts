@@ -19,7 +19,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1568805746970-0bbae56ab18b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const continents: Continent[] = [
     label: 'O continente mais antigo',
     image:
       'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=80',
-    url: '/europa',
+    url: '/continent/europa',
   },
 ];
 
