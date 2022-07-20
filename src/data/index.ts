@@ -12,6 +12,14 @@ interface TravelType {
   image: string;
 }
 
+interface City {
+  id: number;
+  name: string;
+  country: string;
+  image: string;
+  countryImage: string;
+}
+
 export const continents: Continent[] = [
   {
     id: 1,
@@ -88,5 +96,53 @@ export const travelTypes: TravelType[] = [
     id: 5,
     label: 'e mais...',
     image: 'icons/earth.svg',
+  },
+];
+
+export const cities: City[] = [
+  {
+    id: 1,
+    name: 'Londres',
+    country: 'Reino Unido',
+    image:
+      'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    countryImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png',
+  },
+  {
+    id: 2,
+    name: 'París',
+    country: 'Fraça',
+    image:
+      'https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80',
+    countryImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1024px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
+  },
+  {
+    id: 3,
+    name: 'Roma',
+    country: 'Itália',
+    image:
+      'https://images.unsplash.com/photo-1529260830199-42c24126f198?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80',
+    countryImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1024px-Flag_of_Italy.svg.png',
+  },
+  {
+    id: 4,
+    name: 'Praga',
+    country: 'República Tcheca',
+    image:
+      'https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    countryImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1024px-Flag_of_the_Czech_Republic.svg.png',
+  },
+  {
+    id: 5,
+    name: 'Amsterdã',
+    country: 'Holanda',
+    image:
+      'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    countryImage:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1024px-Flag_of_the_Netherlands.svg.png',
   },
 ];
